@@ -1,6 +1,6 @@
+/* eslint-disable */
 import { nanoid } from 'nanoid';
 
-// HEAD DATA
 export const headData = {
   title: '', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
@@ -18,14 +18,25 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'linpr.jpg',
-  paragraphOne: 'Hello, I am 2nd year student (Sophomore), pursuing B.tech in Computer Science Engineering from Mar Athanasius College of Engineering.',
-  paragraphTwo: ' I describe myself as a quick learner and passionate in problem solving by using simple and scalable solutions.',
+  paragraphOne:
+    'Hello, I am 2nd year student (Sophomore), pursuing B.tech in Computer Science Engineering from Mar Athanasius College of Engineering.',
+  paragraphTwo:
+    ' I describe myself as a quick learner and passionate in problem solving by using simple and scalable solutions.',
   paragraphThree: 'Interested in web development and machine learning.',
   resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'kys-ss.png',
+    title: 'Know Your Student',
+    info: 'Student progress tracker - data analysis tool for educators',
+    info2: 'Can be integrated with learning management systems',
+    url: 'https://share.streamlit.io/sandra9711/kys_data_tracker/app.py',
+    repo: 'https://github.com/sandra9711/kys_data_tracker/', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'lp.png',
@@ -44,7 +55,6 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/sandra9711/Random-Joke-generator', // if no repo, the button will not show up
   },
-  
 ];
 
 // CONTACT DATA
@@ -74,5 +84,3 @@ export const footerData = {
     },
   ],
 };
-
-
