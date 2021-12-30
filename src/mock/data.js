@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'linpr.jpg',
   paragraphOne:
-    'Hello, I am 2nd year student (Sophomore), pursuing B.tech in Computer Science Engineering from Mar Athanasius College of Engineering.',
+    'Hello, I am 3rd year student, pursuing B.tech in Computer Science Engineering from Mar Athanasius College of Engineering.',
   paragraphTwo:
     ' I describe myself as a quick learner and passionate in problem solving by using simple and scalable solutions.',
   paragraphThree: 'Interested in web development and machine learning.',
